@@ -7,15 +7,16 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from reviews.models import Category, Genre, Title
+from users.models import User
+
 from .filters import TitleFilter
+from .mixins import CustomMixin
 from .permissions import (IsAdminOnly, IsAdminOrReadOnly,
                           IsAuthorOrModeratorOrAdminOrReadOnly)
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReviewSerializer, TitleInSerializer,
                           TitleSerializer, UserSerializer,
                           UserSerializerRoleReadOnly)
-from users.models import User
-from .mixins import CustomMixin
 
 
 class UserViewSet(viewsets.ModelViewSet):
