@@ -1,7 +1,6 @@
 from rest_framework import serializers
 
 from user_auth.validators import check_token, correct_fields, validate_username
-
 from users.models import User
 
 
