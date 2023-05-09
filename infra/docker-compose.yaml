@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: greenpandorik/infra_actions:latest
+    image: greenpandorik/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
