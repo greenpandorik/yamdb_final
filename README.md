@@ -1,5 +1,5 @@
 # API для проекта YaMDB в контейнере Docker
-[![API for YaMDB project workflow](https://github.com/bondarval/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=main)](https://github.com/bondarval/yamdb_final/actions/workflows/yamdb_workflow.yml)
+[![API for YaMDB project workflow](https://github.com/greenpandorik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=main)](https://github.com/greenpandorik/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
 [![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat-square&logo=NGINX)](https://nginx.org/ru/)
@@ -18,8 +18,6 @@
 Сайт не предоставляет прямой доступ или ссылки для ознакомления непосредственно с произведениями.
 ### Расширение функциональности
 Функционал проекта адаптирован для использования PostgreSQL и развертывания в контейнерах Docker. Используются инструменты CI и CD.
-### Ссылка на сайт
-Проект был запущен и доступен по [адресу](http://bondaryatube.ddns.net).
 
 Может быть недоступно в связи с прекращением обслуживания.
 ## Технологии
@@ -51,11 +49,6 @@ git clone https://github.com/bondarval/yamdb_final.git
 - Установить docker на сервер:
 ```bash
 apt install docker.io 
-```
-- Установить docker-compose на сервер:
-```bash
-curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
 ```
 - Локально отредактировать файл infra/nginx.conf, обязательно в строке server_name вписать IP-адрес сервера
 - Скопировать файлы docker-compose.yml и nginx.conf из директории infra на сервер:
@@ -115,13 +108,9 @@ docker-compose up -d --build
 ```bash
 docker-compose exec web python manage.py dumpdata > fixtures.json
 ```
-- Остановить и удалить неиспользуемые элементы инфраструктуры Docker:
-```bash
-docker-compose down -v --remove-orphans
-```
 ## Примеры API-запросов
-Подробные примеры запросов и коды ответов приведены в прилагаемой документации в формате ReDoc 
-## Авторы
-- Абрамов Кирилл
-- Бондарь Валерий
-- Кулеш Иван
+Подробные примеры запросов и коды ответов приведены в прилагаемой документации в формате ReDoc
+
+# Автор:
+   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+   Михаил Волков - greenpandorikvolkov@yandex.ru
