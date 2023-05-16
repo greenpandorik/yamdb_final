@@ -1,5 +1,5 @@
 # API для проекта YaMDB в контейнере Docker
-![API for YaMDB project workflow](https://github.com/greenpandorik/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg?branch=feature-1)
+![API for YaMDB project workflow](https://github.com/greenpandorik/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg?branch=ьmaster)
 
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
 [![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat-square&logo=NGINX)](https://nginx.org/ru/)
