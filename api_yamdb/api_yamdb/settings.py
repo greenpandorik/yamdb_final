@@ -12,7 +12,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', default='default')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['158.160.69.172', 'localhost', 'greenpandayatube.ddns.net']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
