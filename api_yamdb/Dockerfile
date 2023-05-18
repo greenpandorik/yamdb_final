@@ -2,7 +2,7 @@ FROM python:3.7-slim
 
 WORKDIR /app
 
-COPY ./templates/redoc.yaml ./static/
+COPY /templates/redoc.yaml /static/
 
 COPY requirements.txt /app
 
