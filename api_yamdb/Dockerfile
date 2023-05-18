@@ -1,8 +1,8 @@
 FROM python:3.7-slim
 
-COPY ./static/redoc.yaml ./static/
-
 WORKDIR /app
+
+COPY ./templates/redoc.yaml ./static/
 
 COPY requirements.txt /app
 
