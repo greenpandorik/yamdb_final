@@ -111,9 +111,10 @@ docker-compose exec web python manage.py dumpdata > fixtures.json
 ## Примеры API-запросов
 Подробные примеры запросов и коды ответов приведены в прилагаемой документации в формате ReDoc
 
-## Ссылка на сайт
-Данный проект можно посмотреть по [адресу](https://greenpandayatube.ddns.net/)
-Может быть недоступен в связи с бесплатной регистрацией домена :shipit:
+### Ссылки на проект 
+ReDoc [адресу](http://158.160.69.172/redoc/)
+Admin [адресу](http://158.160.69.172/admin)
+:shipit:
 
 # Автор:
    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
