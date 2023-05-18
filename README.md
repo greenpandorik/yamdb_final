@@ -111,9 +111,9 @@ docker-compose exec web python manage.py dumpdata > fixtures.json
 ## Примеры API-запросов
 Подробные примеры запросов и коды ответов приведены в прилагаемой документации в формате ReDoc
 
-### Ссылки на проект 
-ReDoc [адресу](http://158.160.69.172/redoc/)
-Admin [адресу](http://158.160.69.172/admin)
+### Ссылки на проект:
+- ReDoc [адресу](http://158.160.69.172/redoc/)
+- Admin [адресу](http://158.160.69.172/admin)
 :shipit:
 
 # Автор:
